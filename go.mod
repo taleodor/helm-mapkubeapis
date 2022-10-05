@@ -2,6 +2,8 @@ module github.com/helm/helm-mapkubeapis
 
 go 1.18
 
+replace golang.org/x/net => golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+
 require (
 	github.com/maorfr/helm-plugin-utils v0.6.0
 	github.com/pkg/errors v0.9.1
@@ -116,7 +118,7 @@ require (
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
 	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
-	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
