@@ -5,8 +5,6 @@ go 1.22.0
 toolchain go1.22.4
 
 replace (
-	github.com/docker/distribution => github.com/docker/distribution v2.8.3+incompatible
-	github.com/docker/docker => github.com/docker/docker v20.10.27+incompatible
 	golang.org/x/net => golang.org/x/net v0.17.0
 	google.golang.org/grpc => google.golang.org/grpc v1.56.3
 )
@@ -42,7 +40,6 @@ require (
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/distribution/reference v0.5.0 // indirect
 	github.com/docker/cli v24.0.6+incompatible // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/docker v24.0.9+incompatible // indirect
